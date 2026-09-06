@@ -61,7 +61,7 @@ export default function About() {
               {/* Photo */}
               <div className="w-full h-full rounded-xl relative overflow-hidden">
                 <img
-                  src="/profile.jpeg"
+                  src={`${import.meta.env.BASE_URL}profile.jpeg`}
                   alt="Yash Tyagi"
                   className="w-full h-full object-cover"
                 />
